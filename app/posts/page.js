@@ -9,6 +9,7 @@ export default async function posts() {
         <>
           <Link href={`posts/${post.id}`}>
             <text key={post.id}>{post.title}</text>
+            <text key={post.id}>{post.body}</text>
           </Link>
           <br />
         </>
