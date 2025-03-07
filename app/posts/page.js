@@ -1,18 +1,17 @@
 import Link from "next/link";
-import JsonData from "../libs/jsonData";
+import getAllPost from "../libs/getAllPost";
 
 export default async function posts() {
-  const posts = await JsonData();
+  const posts = await getAllPost();
   return (
-    <div>
+    <div className="flex flex-wrap gap-10">
       {posts.map((post) => (
-        <>
+        <div key={post.id} className="mt-4 h-auto w-50 py-4 px-3 border">
           <Link href={`posts/${post.id}`}>
-            <text key={post.id}>{post.title}</text>
-            <text key={post.id}>{post.body}</text>
+            <text>{post.title}</text>
           </Link>
           <br />
-        </>
+        </div>
       ))}
     </div>
   );
