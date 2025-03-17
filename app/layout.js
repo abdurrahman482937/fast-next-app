@@ -39,6 +39,9 @@ export default function RootLayout({ children }) {
           <Link href="/image">
             <li>Image</li>
           </Link>
+          <Link href="/dynamic">
+            <li>Dynamic</li>
+          </Link>
           <Link href="/contact">
             <li>Contact</li>
           </Link>
