@@ -1,0 +1,75 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Abdur Rahman",
+        "email": "rahman@example.com",
+        "age": 15,
+        "image": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Hasan Ali",
+        "email": "hasan@example.com",
+        "age": 18,
+        "image": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Noman Hossain",
+        "email": "noman@example.com",
+        "age": 20,
+        "image": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Sadia Rahman",
+        "email": "sadia@example.com",
+        "age": 22,
+        "image": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Arif Hossain",
+        "email": "arif@example.com",
+        "age": 25,
+        "image": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Jannat Ferdous",
+        "email": "jannat@example.com",
+        "age": 23,
+        "image": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Rakib Hasan",
+        "email": "rakib@example.com",
+        "age": 21,
+        "image": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Shamim Akter",
+        "email": "shamim@example.com",
+        "age": 30,
+        "image": "https://randomuser.me/api/portraits/men/8.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mahi Chowdhury",
+        "email": "mahi@example.com",
+        "age": 19,
+        "image": "https://randomuser.me/api/portraits/women/9.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Rashed Karim",
+        "email": "rashed@example.com",
+        "age": 26,
+        "image": "https://randomuser.me/api/portraits/men/10.jpg"
+      }
+    ]
+  }
+  
