@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import axios from "axios";
+import Image from "next/image";
   
 export default function page() {
   const [image, setImage] = useState([]);
@@ -18,10 +19,10 @@ export default function page() {
       >
         Get Image
       </button>
-      <div className="p-5 flex flex-wrap items-center justify-center gap-5">
-        {image.map((img) => {
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-5">
+        {image.map((img, i) => {
           return (
-            <img className="border-zinc-500 border w-[500px] h-[500px]" src={img.download_url} alt="fetch image..." />
+            <Image key={i} width={1000} height={1000} className="border-zinc-500 border w-[500px] h-[500px]" src={img.download_url} alt="fetch image..." />
           );
         })}
       </div>
